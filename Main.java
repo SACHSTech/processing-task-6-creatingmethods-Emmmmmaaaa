@@ -1,8 +1,8 @@
 import processing.core.PApplet;
 
 /**
- * Main class to execute sketch
- * @author 
+ * Draws 7 rows of 15 stick men with hearts between every two. 
+ * @author Emma Chan 
  *
  */
 class Main {
