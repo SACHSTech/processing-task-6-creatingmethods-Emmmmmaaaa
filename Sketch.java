@@ -63,19 +63,19 @@ public class Sketch extends PApplet {
     line(locationX, 50 + locationY,40 + x, 40 + locationY);
   }
 
-//draw the rows 
+  //draw the rows 
   private void row(int y){
     for (int x = 0; x < 750; x += 50){
       man(x,y);
       }
     }
 
-//draws the heart 
-private void heart(int x, int y){
-  stroke(0);
-  fill(0, 0, 0);
-  ellipse(x, y, 8, 10);
-  ellipse(x + 10, y, 8, 10);
-  triangle(x - 4, y, x + 14, y, x + 5, y + 12);
-}
+  //draws the heart 
+  private void heart(int x, int y){
+   stroke(0);
+   fill(0, 0, 0);
+   ellipse(x, y, 8, 10);
+   ellipse(x + 10, y, 8, 10);
+   triangle(x - 4, y, x + 14, y, x + 5, y + 12);
+  }
 }
